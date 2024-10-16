@@ -1,0 +1,100 @@
+* {
+    margin: 0 auto;
+    padding: 0 auto;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#container {
+    border-style: solid;
+    border-width: medium;
+    border-radius: 10px;
+    width: 90vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: rgb(154, 218, 148);
+}
+
+#topo {
+    border-style: solid;
+    border-width: medium;
+    border-radius: 5px;
+    width: 87vw;
+    height: 20vh;
+    margin-top: 2vh;
+    background-color: #55921db9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+#main {
+    border-style: solid;
+    border-width: medium;
+    border-radius: 5px;
+    width: 87vw;
+    height: 73vh;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: #fff;
+}
+
+.caixas {
+    border-style: solid;
+    border-width: medium;
+    border-radius: 5px;
+    width: 20vw;
+    height: 60%;
+    margin-top: 10px;
+    background-color: #87bb0f;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+#footer {
+    border-style: solid;
+    border-width: medium;
+    border-radius: 5px;
+    width: 85vw;
+    height: 15vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.caixatexto {
+    border-style: solid;
+    border-width: thin;
+    border-radius: 0px 0px 5px 5px;
+    width: 100%;
+    height: 40%;
+    background-color: #fff;
+    margin-bottom: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+#imagem1{
+    background: url(../imagens/whatsapp-image-2024-10-04-at-16.26.17-1-.avif);
+}
+.caixas .imagens{
+    height: 60%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
